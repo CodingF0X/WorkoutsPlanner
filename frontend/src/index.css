@@ -1,0 +1,190 @@
+:root{
+  --primary: #be29ec;
+  --error :#ff0000;
+
+}
+
+body{
+  background-color: #e7e7e7;
+  
+  
+  
+}
+
+header{
+  background-color: rgb(250, 250, 250);
+ 
+}
+
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  
+}
+
+header .logo {
+  text-decoration: none;
+  color: chartreuse;
+  margin-left: 150px;
+
+}
+
+header .user-panel {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  color: black;
+  font-size: 20px;
+  margin-right: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+
+.pages{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+
+.home{
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: 100px;
+  margin-left:10%;
+  margin-right: 10%;
+}
+
+.workout-details{
+  background: #fff;
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgb(251, 156, 218);
+  
+}
+
+.workout-details h2{
+  margin: 0 0 10px 0;
+  color: #6eb2cc;
+  font-size: 30px;
+} 
+
+.workout-details h4{
+  margin: 0;
+  color: #beef00;
+  font-size: 20px;
+}
+
+.workout-details p {
+  margin: 0;
+  color: #bb6094;
+  font-size: 20px;
+}
+
+
+
+
+label, input {
+ display: block;
+}
+
+input{
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  
+}
+
+ .error {
+  border: 1px solid var(--error);
+  
+}
+
+form button{
+  background: 	#5aff15;
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+p.error{
+  padding: 10px;
+  background: #fff;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+
+.delete{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  color: rgb(224, 79, 79);
+  font-size: 20px;
+}
+
+.date{
+  color: rgb(125, 118, 118);
+}
+
+.date-added{
+  color: rgb(183, 171, 171);
+  font-size: 15px;
+}
+
+form.signup , form.login {
+  max-width: 400px;
+  margin: 100px auto;
+  background:#fff;
+  padding: 40px;
+  padding-top: 40px;
+  border-radius: 5px;
+  
+
+}
+
+.login-logo{
+ position: relative;
+  color: black;
+  font-size: 30px;
+  margin-left: 150px;
+  padding-bottom: 20px;
+}
+
+.login-logo i {
+  padding-left: 25px;
+}
+
+
+.user-form-btn{
+ margin-left: 155px;
+}
+
+.user-logout{
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  color: black;
+  font-size: 30px;
+  margin-right: 50px;
+  cursor: pointer;
+}
